@@ -10,3 +10,9 @@
 body{
     background-color: #111;
 }
+
+
+/* we dont want scroll bar */
+#tasklist::-webkit-scrollbar{
+    display: none;
+}
